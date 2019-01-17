@@ -16,3 +16,25 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #e2e2e2;
+  text-align: center;
+}
+
+.nav {
+  list-style-type: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+.nav li {
+  display: inline-block;
+}
